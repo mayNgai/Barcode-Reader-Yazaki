@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Yazaki</string>
+    <string name="txt_project_code">YAZAKI</string>
+    <string name="txt_apl_version">Apl version : </string>
+    <string name="txt_tel">Tel : </string>
+    <string name="txt_call_center">call center</string>
+    <string name="txt_contract_us">Contact us</string>
+    <string name="txt_phone_number">1176 Ext. 2</string>
+
+    <!-- Strings related to login -->
+    <string name="action_log_in">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_username">This username is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale" translatable="false">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="txt_want_to_update">Do you want to update data?</string>
+    <string name="error_incorrect_login">Login Fail</string>
+    <string name="txt_log_out">Log out</string>
+    <string name="txt_not_connecte">Not connected to Internet.</string>
+    <string name="txt_not_connecte_to_server">Not connected to Server.</string>
+    <string name="txt_internet_is_not">Internet is not stable.</string>
+    <string name="txtWarning">Warning</string>
+    <string name="txtWait">Wait</string>
+    <string name="txt_loading">loading...</string>
+
+    <string name="hintLogin">Username</string>
+    <string name="hintPassword">Password</string>
+    <string name="txtRemember">Remember me</string>
+    <string name="txtSetting" translatable="false">Setting</string>
+    <string name="txtLanguage">Language</string>
+    <string name="txtCalendar">Calendar</string>
+    <string name="txtDateFormat">Date Format</string>
+    <string name="txtResult">Result</string>
+
+    <!--data scan-->
+    <string name="txt_p_o" translatable="false">P.O.</string>
+    <string name="txt_pick_up_point">Pick Up Point</string>
+    <string name="txt_destination">Destination</string>
+    <string name="txt_vehicle">Vehicle</string>
+    <string name="txt_tag" translatable="false">Tag</string>
+    <string name="txt_bussiness_person" translatable="false">Bussiness person</string>
+    <string name="txt_item_name" translatable="false">Item Name</string>
+    <string name="txt_delivery_date_time" translatable="false">Delivery Date, Time</string>
+    <string name="txt_delay_arrival">Delay Arrival Judgment time</string>
+    <string name="txt_min">min</string>
+
+    <string name="error_p_o">This P.O. is invalid.</string>
+    <string name="error_pick_up_point">This Pick Up is invalid.</string>
+    <string name="error_destination">This Destination is invalid.</string>
+    <string name="error_vehicle">This Vehicle is invalid.</string>
+    <string name="error_tag">This Tag is invalid.</string>
+    <string name="error_bussiness_person">This Bussiness person is invalid.</string>
+    <string name="error_item_name">This Item Name is invalid.</string>
+    <string name="error_delivery_date_time">This Delivery Date,Time is invalid.</string>
+    <string name="error_delay_arrival">This Delay Arrival Judgment time is invalid.</string>
+
+    <string name="txt_want_to_cancel">Do you want to cancel?</string>
+    <string name="txt_want_to_delete">Do you want to delete?</string>
+    <string name="txt_want_to_upload">Do you want to upload?</string>
+
+    <string name="txt_cannot_delete">Cannot delete.</string>
+    <string name="txt_cannot_update">Cannot update.</string>
+    <string name="txt_cannot_add">Cannot add.</string>
+
+    <string name="txt_upload">Upload</string>
+    <string name="txt_cancel">Cancel</string>
+    <string name="txt_delete">Delete</string>
+    <string name="txt_read">Read</string>
+
+    <string name="english" translatable="false">English</string>
+    <string name="christian">Christian</string>
+    <string name="buddhist">Buddhist</string>
+    <string name="dd">dd/mm/yyyy</string>
+    <string name="yy">yyyy/mm/dd</string>
+    <string name="exit">exit</string>
+    <string name="confirm">Confirm</string>
+    <string name="thai" translatable="false">ไทย</string>
+    <string name="YouMuchTurnOnAuthen">You much allow</string>
+    <string name="cancel">Cancel</string>
+    <string name="Ok">Ok</string>
+    <string name="necessary">*Necessary*</string>
+
+
+</resources>

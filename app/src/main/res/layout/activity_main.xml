@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:padding="@dimen/padding_10"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_margin="@dimen/padding_10"
+        android:id="@+id/linear_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:weightSum="4">
+        <ImageView
+            android:id="@+id/img_search"
+            android:padding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:src="@drawable/ic_search_black_24dp"/>
+        <TextView
+            android:id="@+id/edt_date"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:enabled="false"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textSize="@dimen/font_18"
+            android:textColor="@color/Black"
+            android:layout_marginLeft="@dimen/padding_10"
+            android:layout_weight="2.7"/>
+
+        <ImageView
+            android:id="@+id/img_add"
+            android:padding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:visibility="gone"
+            android:src="@drawable/add"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txt_not_found"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linear_head"
+        android:gravity="center_horizontal|center_vertical"
+        android:visibility="gone"
+        android:padding="@dimen/padding_10"
+        android:textStyle="bold"
+        android:textSize="@dimen/font_18"
+        android:text="Not Found" />
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh"
+        android:layout_below="@+id/linear_head"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linear_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/linear_head"
+            android:visibility="visible"
+            android:weightSum="3">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:background="#cccccc"
+                    android:padding="20dp" />
+            </LinearLayout>
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="@dimen/margin_5"
+        android:layout_marginRight="@dimen/margin_5"
+        android:onClick="camera"
+        android:clickable="true"
+        app:srcCompat="@drawable/ic_add_white_24dp" />
+
+</RelativeLayout>

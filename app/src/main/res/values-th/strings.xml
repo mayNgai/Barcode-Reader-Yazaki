@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yazaki</string>
+    <string name="txt_project_code">YAZAKI</string>
+    <string name="txt_apl_version">เวอร์ชั่น : </string>
+    <string name="txt_tel">โทร : </string>
+    <string name="txt_call_center">call center</string>
+    <string name="txt_contract_us">ติดต่อ</string>
+    <string name="txt_phone_number">1176 Ext. 2</string>
+    <string name="txt_log_out">ออกจากระบบ</string>
+    <string name="txt_internet_is_not">อินเตอร์เนตไม่เสถียร</string>
+    <string name="txtWarning">เตือน</string>
+    <string name="txtWait">กรุณารอ</string>
+    <string name="txt_loading">กำลังโหลด</string>
+    <string name="txtLanguage">ภาษา</string>
+    <string name="txtCalendar">ปฏิทิน</string>
+    <string name="txtDateFormat">รูปแบบวันที่</string>
+    <string name="action_log_in">เข้าสู่ระบบ</string>
+    <string name="prompt_email">อีเมลล์</string>
+    <string name="prompt_password">รหัสผ่าน</string>
+    <string name="action_sign_in">เข้าสู่ระบบหรือลงทะเบียน</string>
+    <string name="action_sign_in_short">เข้าสู่ระบบ</string>
+    <string name="error_invalid_email">อีเมลล์นี้ไม่ผ่าน</string>
+    <string name="error_invalid_username">บัญชีผู้ใช้นี้ไม่ผ่าน</string>
+    <string name="error_invalid_password">รหัสผ่านสั้นเกินไป</string>
+    <string name="error_incorrect_password">รหัสผ่านไม่ถูกต้อง</string>
+    <string name="error_field_required">ช่องนี้สำคัญ ต้องระบุ</string>
+    <string name="hintLogin">ชื่อผู้ใช้งาน</string>
+    <string name="hintPassword">รหัสผ่าน</string>
+    <string name="txtRemember">จดจำผู้ใช้</string>
+    <string name="christian">คริสต์ศักราช</string>
+    <string name="buddhist">พุทธศักราช</string>
+    <string name="dd">วัน/เดือน/ปี</string>
+    <string name="yy">ปี/เดือน/วัน</string>
+    <string name="error_incorrect_login">เข้าระบบผิดพลาด</string>
+    <string name="txt_not_connecte">ไม่พบสัญญาณอินเตอร์เน็ต</string>
+    <string name="txt_not_connecte_to_server">ไม่สามารถติดต่อกับเซอร์เวอร์ได้</string>
+    <string name="txt_want_to_update">คุณต้องการอัปเดตข้อมูลไหม?</string>
+    <string name="txt_pick_up_point">จุดรับ</string>
+    <string name="txt_destination">จุดหมาย</string>
+    <string name="txt_vehicle">พาหนะ</string>
+    <string name="txt_delay_arrival">เวลาล่าช้า</string>
+    <string name="txt_min">นาที</string>
+    <string name="txtResult">Result</string>
+    <string name="error_p_o">This P.O. is invalid.</string>
+    <string name="error_pick_up_point">This Pick Up is invalid.</string>
+    <string name="error_destination">This Destination is invalid.</string>
+    <string name="error_vehicle">This Vehicle is invalid.</string>
+    <string name="error_tag">This Tag is invalid.</string>
+    <string name="error_bussiness_person">This Bussiness person is invalid.</string>
+    <string name="error_item_name">This Item Name is invalid.</string>
+    <string name="error_delivery_date_time">This Delivery Date,Time is invalid.</string>
+    <string name="error_delay_arrival">This Delay Arrival Judgment time is invalid.</string>
+
+    <string name="txt_want_to_cancel">คุณต้องการยกเลิกไหม?</string>
+    <string name="txt_want_to_delete">คุณต้องการลบไหม?</string>
+    <string name="txt_want_to_upload">คุณต้องการอัปโหลดไหม?</string>
+
+    <string name="txt_cannot_delete">ไม่สามารถลบข้อมูลได้.</string>
+    <string name="txt_cannot_update">ไม่สามารถอัปเดตข้อมูลได้</string>
+    <string name="txt_cannot_add">ไม่สามารถเพิ่มข้อมูลได้</string>
+
+    <string name="txt_upload">อัพโหลด</string>
+    <string name="txt_cancel">ยกเลิก</string>
+    <string name="txt_delete">ลบ</string>
+    <string name="txt_read">แสกน</string>
+    <string name="exit">ออก</string>
+    <string name="confirm">ยืนยัน</string>
+    <string name="YouMuchTurnOnAuthen">ต้องเปิดการเข้าถึงอุปกรณื</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="Ok">ตกลง</string>
+    <string name="necessary">*ข้อมูลจำเป็น*</string>
+</resources>

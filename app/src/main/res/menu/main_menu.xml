@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/setting"
+        android:orderInCategory="100"
+        android:title="@string/txtSetting"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="100"
+        android:title="@string/txt_log_out"
+        app:showAsAction="never" />
+
+    <group
+        android:orderInCategory="102"
+        app:showAsAction="always">
+
+        <item
+            android:id="@+id/info"
+            android:orderInCategory="103"
+            android:title="iQ"
+            android:icon="@drawable/ic_info"
+            app:showAsAction="always" />
+
+    </group>
+
+</menu>
